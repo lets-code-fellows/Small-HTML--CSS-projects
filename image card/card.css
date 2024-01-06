@@ -37,11 +37,11 @@ button {
   left: 4px;
 }
 a:visited {
-  color: lightblue;
+  color:black;
   text-decoration: none;
 }
 .sp {
-  color: lightblue;
+  color:white;
   position: relative;
   top: 200px;
   left: 5px;
