@@ -1,0 +1,51 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#im {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.outline {
+  background-image: gray;
+  height: 60vh;
+  width: 20vw;
+  border-radius: 20px;
+  border: 6px solid white;
+  position: relative;
+  top: 160px;
+  left: 573px;
+  z-index: 2;
+}
+#imp {
+  position: absolute;
+  border: 5px solid gray;
+  border-radius: 25px;
+  height: 180px;
+  width: 270px;
+  top: 6px;
+  left: 6px;
+}
+
+button {
+  position: relative;
+  border-radius: 20px;
+  background-image: url("back.jpg");
+  top: 200px;
+  left: 4px;
+}
+a:visited {
+  color: lightblue;
+  text-decoration: none;
+}
+.sp {
+  color: lightblue;
+  position: relative;
+  top: 200px;
+  left: 5px;
+}
+#btn {
+  overflow-x: auto;
+}
