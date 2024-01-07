@@ -1,0 +1,55 @@
+body{
+    background-color: lightblue ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    height: 30px;
+    width: 30px;
+    
+}
+
+ul{
+    /* background-color: aqua; */
+    height: 50px;
+    list-style: none;
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span:hover{
+    color: orange;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    font-size: 35px;
+    margin-top: 30px;
+    height: 60px;
+}
+
+.cont{
+    justify-content: center;
+    width: 50vw;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 125px;
+}
+

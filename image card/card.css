@@ -38,7 +38,7 @@ button {
 }
 a:visited {
   color:black;
-  text-decoration: none;
+display: none;
 }
 .sp {
   color:white;
