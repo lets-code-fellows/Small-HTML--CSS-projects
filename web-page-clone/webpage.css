@@ -96,7 +96,7 @@ button{
     width: 60px;
 }
 .container{
-    padding: 180px;
+    padding: 100px;
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -104,16 +104,43 @@ button{
 
 } 
 .box{
-    display: flex;
-    width: 300px;
+    width: 350px;
     height: 200px;
-    margin: 30px;
-    justify-content: center;
-    background-color: #7c7873;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: rgb(230, 217, 193);
+    border-radius: 10px;
 }
-.text
-{   
+
+.text 
+{
+    display: flex;
+    justify-content: center;
+    height: 30px;
     font-size: 22px;
-    font-weight: bold;  
-    margin-top: 15px;  
+    font-weight: bold;
+    margin-top: 40px;  
+}
+
+.hlink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+.hlink a{
+    display: flex;
+    background-color: lightgreen ;
+    color: #00b6d1;
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 140px ;
+    height: 35px; 
+    margin: 10px; 
+    padding: 5px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
 }
