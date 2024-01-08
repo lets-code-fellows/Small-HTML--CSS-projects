@@ -2,18 +2,27 @@ body{
     background-color: lightblue ;
 }
 *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
 nav{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    height: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 200px;
 }
 
 .logo img{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
     
 }
 
@@ -22,7 +31,8 @@ ul{
     height: 50px;
     list-style: none;
     display: flex;
-    gap: 5vw;
+    margin-left: 200px;
+    gap: 2vw;
     align-items: center;
     justify-content: center;
 }
@@ -39,17 +49,71 @@ span:hover{
     display: flex;
     justify-content: center;
     align-items:baseline;
-    font-size: 35px;
-    margin-top: 30px;
-    height: 60px;
+    font-size: 60px;
 }
 
-.cont{
+.cont{ 
+    display: flex;
+    font-size: 30px;
+    height: 100px;
+    width: 100vw;
     justify-content: center;
-    width: 50vw;
-    height: 50px;
-    margin-top: 10px;
+    margin-top: 70px;
+    align-items: center;
     text-align: center;
-    margin-left: 125px;
+}
+.cont > div{
+    width: 75vw;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+button{
+    background-color: #00b6d1;
+    color:white;
+    border-radius: 5px;
+    border-style: hidden;
+    font-size: 18px;    
+    font-weight:bold;
+    margin-top: 20px;
+    height: 50px;
+    width: 400px;
+}
+.logo2{
+    display: flex;
+    width: 70vw;
+    margin-top: 20px;
+    justify-content:center ;
+    align-items:center;
+    gap:10px;
 }
 
+.img2{
+    border-radius: 40px;
+    height: 60px;
+    width: 60px;
+}
+.container{
+    padding: 180px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+} 
+.box{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    justify-content: center;
+    background-color: #7c7873;
+}
+.text
+{   
+    font-size: 22px;
+    font-weight: bold;  
+    margin-top: 15px;  
+}
