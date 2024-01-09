@@ -14,9 +14,9 @@ nav{
 .logo{
     display: flex;
     height: 150px;
-    margin-top: 20px;
     font-size: 20px;
-    margin-left: 200px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 .logo img{
@@ -28,10 +28,10 @@ nav{
 
 ul{
     /* background-color: aqua; */
-    height: 50px;
+    height: 20px;
     list-style: none;
     display: flex;
-    margin-left: 200px;
+    margin-left: 450px;
     gap: 2vw;
     align-items: center;
     justify-content: center;
@@ -40,10 +40,6 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-span:hover{
-    color: orange;
-    
 }
 .main{
     display: flex;
@@ -69,6 +65,7 @@ span:hover{
     display: flex;
     justify-content: center;
     height: 150px;
+    margin-top: 10px;
 }
 button{
     background-color: #00b6d1;
@@ -108,7 +105,7 @@ button{
     height: 200px;
     margin: 20px;
     margin-top: 50px;
-    background-color: rgb(230, 217, 193);
+    background-color:#a2d2ff;
     border-radius: 10px;
 }
 
@@ -119,7 +116,7 @@ button{
     height: 30px;
     font-size: 22px;
     font-weight: bold;
-    margin-top: 40px;  
+    margin-top: 30px;  
 }
 
 .hlink{
@@ -130,8 +127,8 @@ button{
 }
 .hlink a{
     display: flex;
-    background-color: lightgreen ;
-    color: #00b6d1;
+    background-color: #7678ed    ;
+    color: #df5666;
     font-weight: 800;
     font-size: 16px;
     border-radius: 10px;
@@ -143,4 +140,29 @@ button{
     align-items: center;
     justify-content: center;
 
+}
+.first-link 
+{
+    background-color: lightgreen !important;
+}
+
+.second-container{
+    display: flex;
+    background-color: black;
+    margin-top: -30px;
+    height: 700px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.cont2{
+    width: 30vw;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+.cont2 > h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    justify-items: center;
 }
