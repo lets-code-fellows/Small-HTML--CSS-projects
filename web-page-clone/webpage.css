@@ -158,8 +158,7 @@ button{
     align-items: center;
 }
 .cont2{
-    width: 30vw;
-    height: 400px;
+    width: 30vw; 
     text-align: center;
     color: white;
 }
@@ -169,32 +168,30 @@ button{
     justify-items: center;
 }
 .login{
+
     display: flex;
     border-radius: 20px;
     height: 300px;
     width: 350px;
     background-color: whitesmoke;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 140px;
-    margin-left: 20px;
+    align-items: baseline;
+    margin-left: 50px;
 
 }
 .login > h2{
     color: #00b6d1;
     margin-top:40px;
 }
-.login > h4{
-    align-items: flex-end;
-}
 input
 {
     border-radius: 15px;
-    border-style:dashed;
+    border-style:groove;
     width: 250px;
     height: 50px;
 }
-.login > a {
+ .login > a  {
+    display: flex;
     background-color: #00b6d1;
     color:white;
     border-radius: 20px;
@@ -202,8 +199,14 @@ input
     font-size: 18px;    
     font-weight:bold;
     height: 50px;
-    width: 200px;
-    text-align: center;
+    width: 260px;
+    justify-content: center;
     align-items:center;
     text-decoration: none;
+}
+.log-cont{
+    display: flex;
+    width: 70vw;
+    color: white;
+    gap: 20px;
 }
